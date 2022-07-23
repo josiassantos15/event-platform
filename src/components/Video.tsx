@@ -77,17 +77,19 @@ export function Video (props: VideoProps) {
             <div className="flex items-center gap-4 mt-6">
               <img 
                 className="h-16 w-16 rounded-full border-2 border-blue-500"
-                src={data.lesson.teacher.avatarURL}
-                // src="https://github.com/josiassantos15.png"
+                // src={data.lesson.teacher.avatarURL}
+                src="https://github.com/josiassantos15.png"
                 alt=""
               />
 
               <div className="leading-relaxed">
                 <strong className="font-bold text-2xl block">
                   {data.lesson.teacher.name}
+                  {/* João Paulo */}
                 </strong>
                 <span className="text-gray-200 text-sm block">
                   {data.lesson.teacher.bio}
+                  {/* Muito louco */}
                 </span>
               </div>
             </div>
